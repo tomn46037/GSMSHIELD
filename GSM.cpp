@@ -24,8 +24,12 @@ based on QuectelM10 chip.
 
 //De-comment this two lines below if you have the
 //second version og GSM GPRS Shield
-#define _GSM_TXPIN_ 2
-#define _GSM_RXPIN_ 3	
+//#define _GSM_TXPIN_ 2
+//#define _GSM_RXPIN_ 3	
+
+//SeedStudio uses pins 7/8
+#define _GSM_TXPIN_ 7
+#define _GSM_RXPIN_ 8	
 
 
 #ifdef UNO

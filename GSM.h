@@ -17,7 +17,7 @@
 #define lf    10 //Ascii character for line feed.
 #define GSM_LIB_VERSION 308 // library version X.YY (e.g. 1.00)
 
-#define DEBUG_ON
+//#define DEBUG_ON
 
 
 #ifdef MEGA
@@ -41,8 +41,9 @@
 
 
 // pins definition
-#define GSM_ON              8 // connect GSM Module turn ON to pin 77 
-#define GSM_RESET           9 // connect GSM Module RESET to pin 35
+// Changed for SeedStudio GSM shield
+#define GSM_ON              9 // connect GSM Module turn ON to pin 77 
+//#define GSM_RESET           9 // connect GSM Module RESET to pin 35
 //#define DTMF_OUTPUT_ENABLE  71 // connect DTMF Output Enable not used
 #define DTMF_DATA_VALID     14 // connect DTMF Data Valid to pin 14
 #define DTMF_DATA0          72 // connect DTMF Data0 to pin 72
